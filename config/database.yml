@@ -77,8 +77,8 @@ development:
 # Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
 # for a full overview on how database connection configuration can be specified.
 #
-production:
-  <<: *default
-  database: blockbuster_production
-  username: blockbuster
-  password: <%= ENV["BLOCKBUSTER_DATABASE_PASSWORD"] %>
+#production:
+  #<<: *default
+  #database: blockbuster_production
+  #username: blockbuster
+  #password: <%= ENV["BLOCKBUSTER_DATABASE_PASSWORD"] %>
